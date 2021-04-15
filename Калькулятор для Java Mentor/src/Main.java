@@ -4,22 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        args = new String[3];
-//        for (int i = 1; i < 1000; i++) {
-//            for (int j = 1; j < i; j++) {
-//                args[0] = String.valueOf(i);
-//                args[2] = String.valueOf(j);
-//                for (String s : new String[]{"+","-","*","/"}) {
-//                    args[1] = s;
-//                    if (RomeNumber.decode(Calculator.calcRome(new String[]{RomeNumber.toRomeNumber(Integer.decode(args[0])), args[1], RomeNumber.toRomeNumber(Integer.decode(args[2]))})) != Calculator.calcArabic(args)) {
-//                        System.out.println(args[0] + " " + args[1] + " " + args[2] + " = " + Calculator.calcArabic(args) + " && " +
-//                                RomeNumber.toRomeNumber(Integer.decode(args[0])) + " " + args[1] + " " + RomeNumber.toRomeNumber(Integer.decode(args[2])) + " = "
-//                                + Calculator.calcRome(new String[]{RomeNumber.toRomeNumber(Integer.decode(args[0])), args[1], RomeNumber.toRomeNumber(Integer.decode(args[2]))}));
-//                    }
-//                }
-//            }
-//        }
-
         //**************************************************************************************************************
         if (args.length == 0) {
             Scanner scanner = new Scanner(System.in);
